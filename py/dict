@@ -1,0 +1,21 @@
+a= {
+    "key" : "value"
+    "model": "mustang"
+    }
+print(a) #딕셔너리는 중복을 허용하지않는다 순서가 정해져잇다
+print(a["key"])
+print(len(a)) #딕셔너리의 길이
+
+b ={
+    "brand": "ford",
+    "electric": False,
+    "year": 1964. #숫자열은 콤마가 필요없다
+    "colors": ["red", "white"]#리스트도 딕셔너리안에 넣을수잇다
+}
+print(type(b))#딕셔너리의 데이터타입
+
+c = dict(name = "john", age =36, country = "Norway")
+#딕셔너리는 생성자를 통해서도 만들수잇다
+x= b["brand"]# 딕셔너리 값을 가져온다 단, 값이 존재하지 않을때 프로그램 오류발생
+x= b.get("brand") # 딕셔너리 키값을 가져온다 , 값이 존재하지않을때 none 값을출력
+x= b.value()# 딕셔너리의모든 값을 리스트로 출력한다
