@@ -19,3 +19,4 @@ c = dict(name = "john", age =36, country = "Norway")
 x= b["brand"]# 딕셔너리 값을 가져온다 단, 값이 존재하지 않을때 프로그램 오류발생
 x= b.get("brand") # 딕셔너리 키값을 가져온다 , 값이 존재하지않을때 none 값을출력
 x= b.value()# 딕셔너리의모든 값을 리스트로 출력한다
+x= b.items()# 딕셔너리 모든 값을 튜플로 전환한다.
