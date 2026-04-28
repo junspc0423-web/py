@@ -10,6 +10,23 @@ x= str(3) # 문자열 변환
 x= int(3) # 숫자열 변환
 x=float(3)# 실수 변환
 
-#변수 타입 확인하기
+#변수 타입 확인하기-> type()함수
 x=5
-print(type(x))
+print(type(x)) # <class 'int'> 
+
+#변수 이름은 숫자로 시작이 안된다.
+#변수는 대소문자를 구분, 약속어가 키워드 될수없음.
+
+# 여러 변수 한번에 선언
+x,y,z = "one" , "two" , " three"
+print(x,y,z)
+
+#  unpacking
+fruits = [ "1" ,"2" , "3"]
+x, y, z= fruits
+print(x,y,z)
+
+# print 함수에서 여러 변수를 출력하는 좋은 방법은 쉼표구분임
+x= 5 
+y = "John"
+print(x, y)
