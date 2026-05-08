@@ -1,0 +1,35 @@
+# text type  - > str  
+# 데이터 유형 가져오기 
+x =5
+print(type(x))
+
+# 난수 생성하기 
+# random 내장 모듈존재
+import random
+print(random.randrange(1, 10))
+
+#int() - 정수 리터럴, 부유형으로부터 문자열을 생성합니다.
+#float() 
+# str()
+
+# 믄지열 인덱싱
+a = " Hello, world"
+print(a[1])
+ # 묹자열 반복해서 실행하기
+for i in "bannana":
+    print(i)
+# 줄길이 구하기 
+print(len(a))
+#특정 구문 문자가 있는 지확인하기
+print("world" in a)
+#슬라이싱
+print(a[2:5])
+#문자열 수정하기
+print(a.upper())
+print(a.lower())
+# 공백 제거하기
+print(a.strip())
+#문자열 바꾸기
+print(a.replace("H" , "J"))
+# 문자열 분할하기
+print(a.split(","))

@@ -30,3 +30,15 @@ print(x,y,z)
 x= 5 
 y = "John"
 print(x, y)
+
+#전역변수
+x = " awesome" #외부변수를
+def myfunc():
+    print("python is " +  x)
+ # 내부에 호출함
+myfunc()
+# global 키워드로 전역변수를 선언할수잇음 
+def add():
+    global x 
+    x = "fanstastic"
+

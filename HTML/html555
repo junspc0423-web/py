@@ -1,0 +1,16 @@
+
+# Form 태그
+<FORM method = "속성값"> 
+#  method 전송방법을 선택 
+# name 폼의 이름을 설정 
+# action 
+ 하나의 form 에는 하나의 action 값만 사용할수잇다
+
+ #input 태그
+ <form>
+ <input type="text" size30 maxlength="10">
+ </from>
+ #타입 태그
+   passowrd 타입 text타입 
+
+
