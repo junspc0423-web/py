@@ -1,0 +1,7 @@
+def exam5(a):
+  if 2004<= a <= 2100 and a%4 == 0 :
+    return True
+  else :
+    return False
+
+print(exam5(2055))
