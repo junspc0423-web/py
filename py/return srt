@@ -1,0 +1,9 @@
+def exam7(a) :
+  b=a.split(" ")
+  c=[]
+  for i in b :
+    if len(i)%2 !=0 :
+      c.append(i[::-1])
+    else  :
+         c.append(i[::-1].upper())
+  return " ".join(c)
